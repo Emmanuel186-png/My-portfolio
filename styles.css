@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: #333;
+    background: #f8f8f8;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #ff6a00;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Portfolio */
+.portfolio-gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background: #ff6a00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
